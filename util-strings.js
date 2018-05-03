@@ -26,5 +26,5 @@ function parseQuery (query) {
 }
 
 export default {
-  parseQuyer
+  parseQuery
 };
