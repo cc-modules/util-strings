@@ -4,6 +4,7 @@
  */
 function parseQuery (query) {
   var res = {};
+  if (!query) return res;
   query = query.trim().replace(/^(\?|#|&)/, '');
   if (!query) return res;
 
