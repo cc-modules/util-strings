@@ -26,6 +26,17 @@ function parseQuery (query) {
   return res;
 }
 
+const reFirstLetter = /^([a-z])|\s([a-z])/g
+/**
+ * Capitalize given string s
+ * @param  {String} s
+ * @return {String}
+ */
+function capitalize (s) {
+  return s.replace(reFirstLetter, a => a.toUpperCase());
+}
+
 export default {
-  parseQuery
+  parseQuery,
+  capitalize
 };
