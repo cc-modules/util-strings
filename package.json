@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@code.vipkid.com.cn:3590/lingobus-fe/games/library/util-strings.git"
+    "url": "ssh://git@code.vipkid.com.cn:3590/cc-game/infra/util-strings.git"
   },
   "author": "wangweihua@vipkid.com.cn",
   "license": "ISC"
