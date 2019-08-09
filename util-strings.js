@@ -36,7 +36,15 @@ function capitalize (s) {
   return s.replace(reFirstLetter, a => a.toUpperCase());
 }
 
+const Base64Regex = /^([0-9a-zA-Z+/]{4})*(([0-9a-zA-Z+/]{2}==)|([0-9a-zA-Z+/]{3}=))?$/;
+
+function isBase64 (s) {
+  if (s == null) return false;
+  return Base64Regex.test(s);
+}
+
 export default {
   parseQuery,
-  capitalize
+  capitalize,
+  isBase64
 };
