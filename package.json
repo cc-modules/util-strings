@@ -3,13 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "util-strings.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "ssh://git@code.vipkid.com.cn:3590/cc-game/infra/util-strings.git"
-  },
   "author": "wangweihua@vipkid.com.cn",
   "license": "ISC"
 }
